@@ -1,0 +1,57 @@
+body {
+	background: black;
+	font-family: "Playfair Display", serif;
+}
+
+* {
+	min-height: 10px;
+}
+.postcard {
+	width: 400px;
+	height: 300px;
+	background: white;
+	margin: auto;
+}
+.postcard-header {
+	display: flex;
+	padding-top: 10px;
+}
+.postcard-header h1 {
+	width: 100%;
+	margin: 0;
+	padding-top: 1px;
+}
+
+.postcard-header img {
+	width: 50px;
+	height: 50px;
+}
+
+.postcard-body {
+	display: flex;
+	padding: 8px;
+}
+.body-left p:first-child {
+	margin-top: 0;
+}
+.input-container input {
+	display: block;
+	margin-bottom: 10px;
+}
+input {
+	border: none;
+	border-bottom: 1px grey solid;
+}
+
+.body-left,
+.body-right {
+	padding: 0.2px;
+}
+.postcard-footer {
+	text-align: center;
+}
+button {
+	background-color: rgb(56, 54, 54);
+	padding: 2px 6px;
+	border: none;
+}
